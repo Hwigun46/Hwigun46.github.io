@@ -10,15 +10,14 @@ permalink: /
   </div>
 
   <div class="about-intro">
-    <h1>Hwigun Yoon</h1>
+    <h1>Yoon Ham</h1>
     <p class="about-subtitle">
       Undergraduate Student · Security Research Intern
     </p>
 
     <p>
       I am an undergraduate student in the Division of ICT Convergence at Hanyang University ERICA,
-      with a double major in Convergence Security. I am expected to graduate in
-      <strong>February 2027</strong>.
+      with a double major in Convergence Security.
     </p>
 
     <p>
@@ -42,7 +41,7 @@ permalink: /
   <div class="about-item">
     <div class="about-item-title">Hanyang University ERICA</div>
     <div class="about-item-meta">B.S. Candidate, Division of ICT Convergence</div>
-    <div class="about-item-desc">Double Major in Convergence Security · Expected Graduation: February 2027</div>
+    <div class="about-item-desc">Double Major in Convergence Security · Expected Graduation: <strong>Feb 2027</strong></div>
   </div>
 </div>
 
@@ -66,10 +65,7 @@ permalink: /
     <span>Android Security</span>
     <span>System Security</span>
     <span>Software Security</span>
-    <span>Cloud / Platform Engineering</span>
     <span>Static and Dynamic Analysis</span>
-    <span>Computer Systems</span>
-    <span>Security Research</span>
   </div>
 </div>
 
