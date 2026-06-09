@@ -12,24 +12,21 @@
 </div>
 
 <div class="sidebar-item sidebar-nav">
-	<ul class="nav">
-      <li class="nav-title">Pages</li>
-	  <li>
-	  	<a class="nav-item" href="/">Articles</a>
-	  </li>
-	  {% assign pages_list = site.pages %}
-	  {% for node in pages_list %}
-	    {% if node.title != null %}
-	      {% if node.layout == "page" %}
-	        <li>
-	        	<a class="nav-item" href="{{ node.url }}">
-	            	{{ node.title }}
-	            </a>
-	        </li>
-	      {% endif %}
-	    {% endif %}
-	  {% endfor %}
-	</ul>
+  <ul class="nav">
+    <li class="nav-title">Pages</li>
+
+    {% assign page_paths = site.header_pages %}
+    {% for path in page_paths %}
+      {% assign node = site.pages | where: "path", path | first %}
+      {% if node and node.title %}
+        <li>
+          <a class="nav-item" href="{{ node.url | relative_url }}">
+            {{ node.title }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 </div>
 
 {% comment %}

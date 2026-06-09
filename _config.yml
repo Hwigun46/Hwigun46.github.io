@@ -16,11 +16,10 @@ plugins:
 category_dir: category/
 tag_dir: tag/
 header_pages:
-  - README.md
+  - articles.md
   - hyu.md
   - study.md
   - research.md
-  - category.md
 svg:
   optimize: true
 # Exclude from processing.
