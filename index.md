@@ -10,7 +10,7 @@ permalink: /
   </div>
 
   <div class="about-intro">
-    <h1>Hwigun Yoon</h1>
+    <h1>Yoon Ham</h1>
     <p class="about-subtitle">
       Undergraduate Student · Security Research Intern
     </p>

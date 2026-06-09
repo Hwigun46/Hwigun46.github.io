@@ -676,3 +676,13 @@ footer {
   .about-item {
     padding: 16px;
   }
+
+
+  /* Temporarily hide profile photo */
+.about-photo-wrap {
+  display: none;
+}
+
+.about-hero {
+  display: block;
+}
