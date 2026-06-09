@@ -119,10 +119,10 @@ code {
 }
 
 .sidebar-brand > a {
-	font-size: 260%;
-	font-family: "Pretendard", "Noto Sans KR", sans-serif;
+	font-size: 240%;
+	font-family: "Pretendard", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 	font-weight: 700;
-	letter-spacing: -0.03em;
+	letter-spacing: -0.02em;
 	color: #fff;
 }
 
