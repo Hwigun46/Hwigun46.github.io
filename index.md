@@ -4,10 +4,7 @@ title: About
 permalink: /
 ---
 
-<div class="about-hero">
-  <div class="about-photo-wrap">
-    <img class="about-photo" src="{{ '/public/img/profile.jpg' | relative_url }}" alt="Profile photo">
-  </div>
+<div class="about-hero about-hero-no-photo">
 
   <div class="about-intro">
     <h1>Yoon Ham</h1>

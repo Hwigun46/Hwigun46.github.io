@@ -537,6 +537,16 @@ footer {
   font-weight: 500;
 }
 
+.about-hero-no-photo {
+  display: block;
+  margin-top: 28px;
+  margin-bottom: 48px;
+}
+
+.about-hero-no-photo .about-intro {
+  max-width: 820px;
+}
+
 /* Mobile */
 
 @media (max-width: 576px) {
@@ -676,13 +686,3 @@ footer {
   .about-item {
     padding: 16px;
   }
-
-
-  /* Temporarily hide profile photo */
-.about-photo-wrap {
-  display: none;
-}
-
-.about-hero {
-  display: block;
-}
