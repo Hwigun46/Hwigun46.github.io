@@ -1,5 +1,5 @@
-@import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
-@import url('https://fonts.googleapis.com/css?family=Gelasio|Kulim+Park|Nanum+Myeongjo|Nanum+Gothic|Noto+Sans|Noto+Sans+KR|Roboto&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap');
 @import url(syntax/monokai.css);
 
 :root {
@@ -29,8 +29,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Roboto", "Nanum Gothic";
-  --font-family-serif: "Nanum Myeongjo";
+  --font-family-sans-serif: "Pretendard", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-family-monospace: "Roboto Mono", "SFMono-Regular", "Consolas", "Menlo", monospace;
 }
 
 * {
@@ -49,8 +49,15 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Gelasio', 'Nanum Myeongjo', serif;
-	color: #2c3e50;
+	font-family: "Pretendard", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.75;
+	letter-spacing: -0.015em;
+	color: #202124;
+	background-color: #ffffff;
+	word-break: keep-all;
+	overflow-wrap: break-word;
 }
 
 a {
@@ -66,16 +73,16 @@ a:hover {
 pre {
 	display: block;
 	overflow: auto;
-	margin-bottom: 15px;
-	padding-bottom: 10px;
-	padding: 5px;
-	line-height: 1.2;
+	margin-bottom: 20px;
+	padding: 14px 16px;
+	line-height: 1.55;
+	border-radius: 6px;
 }
 
 code {
-	font-family: "Menlo", "Consolas", monospace;
-	font-size: 0.8em;
-	margin: 0px;
+	font-family: "Roboto Mono", "SFMono-Regular", "Consolas", "Menlo", monospace;
+	font-size: 0.88em;
+	margin: 0;
 }
 
 .container {
@@ -112,8 +119,10 @@ code {
 }
 
 .sidebar-brand > a {
-	font-size: 300%;
-	font-family: 'Gelasio';
+	font-size: 260%;
+	font-family: "Pretendard", "Noto Sans KR", sans-serif;
+	font-weight: 700;
+	letter-spacing: -0.03em;
 	color: #fff;
 }
 
@@ -131,18 +140,22 @@ code {
 }
 
 .nav-title {
-	font-size: 100%;
-	font-family: "Noto Sans";
+	font-size: 0.82rem;
+	font-family: "Pretendard", "Noto Sans KR", sans-serif;
+	font-weight: 700;
 	text-transform: uppercase;
-	border-bottom: 1px solid gray;
-	margin-bottom: 5px;
+	letter-spacing: 0.04em;
+	border-bottom: 1px solid #555;
+	margin-bottom: 6px;
+	color: #e5e7eb;
 }
 
 a.nav-item {
-	font-size: 120%;
-	font-family: "Noto Sans";
-	text-transform: capitalize;
-	color: #aaa;
+	font-size: 1rem;
+	font-family: "Pretendard", "Noto Sans KR", sans-serif;
+	font-weight: 500;
+	text-transform: none;
+	color: #cbd5e1;
 }
 
 a.nav-item:hover { color: #777; }
@@ -203,10 +216,12 @@ article .share .gplus:hover {
 }
 
 article {
-	padding: 0 5% 0;
+	padding: 0 6% 0;
 	font-size: 17px;
+	font-weight: 400;
 	margin-bottom: 100px;
-	line-height: 1.9;
+	line-height: 1.85;
+	letter-spacing: -0.015em;
 }
 
 article.home div a, article.home pre a { color: #2c3e50; }
@@ -222,8 +237,8 @@ blockquote {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 1.05rem;
 }
 
 article h1,
@@ -232,9 +247,13 @@ article h3,
 article h4,
 article h5,
 article h6 {
-	font-family: "Roboto", "Nanum Gothic";
-	color: #333;
-  	margin-bottom: 0;
+	font-family: "Pretendard", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	color: #1f2933;
+	font-weight: 700;
+	line-height: 1.35;
+	letter-spacing: -0.025em;
+	margin-top: 2.2rem;
+	margin-bottom: 0.8rem;
 }
 
 article.home h1 a,
@@ -283,15 +302,16 @@ header.home {
 
 footer {
 	padding-top: 15px;
-	font-family: 'Ubuntu';
+	font-family: "Pretendard", "Noto Sans KR", sans-serif;
 }
 
 .sidebar-footer {
 	margin-top: 80px;
 	font-size: 0.75em;
-	font-weight: lighter;
-	font-family: "Roboto";
-	line-height: 1.5;
+	font-weight: 400;
+	font-family: "Pretendard", "Noto Sans KR", sans-serif;
+	line-height: 1.6;
+	color: #9ca3af;
 }
 
 .sidebar-footer a {
