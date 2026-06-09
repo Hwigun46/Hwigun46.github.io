@@ -1,0 +1,7 @@
+title: Hwigun Blog
+description: School assignments, Android security notes, and research logs.
+url: "https://hwigun46.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
