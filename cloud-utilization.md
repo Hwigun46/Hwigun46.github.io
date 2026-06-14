@@ -9,7 +9,7 @@ permalink: /hyu/cloud-utilization/
 ## Weekly Notes
 
 {% for post in site.posts %}
-{% if post.categories contains "hyu" and post.tags contains "cloud-usage" %}
+{% if post.categories contains "hyu" and post.tags contains "cloud-utilization" %}
 - [{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: site.date_format }}
 {% endif %}
 {% endfor %}
