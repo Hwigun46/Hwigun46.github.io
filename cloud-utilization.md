@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Cloud Usage
-permalink: /hyu/cloud-usage/
+title: Cloud Utilization
+permalink: /hyu/cloud-utilization/
 ---
 
 클라우드 활용 과목의 주차별 학습 정리 페이지입니다.

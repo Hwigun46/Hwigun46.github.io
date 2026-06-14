@@ -9,7 +9,7 @@ permalink: /hyu/
 ## Courses
 
 - [Cloud Programming]({{ "/hyu/cloud-programming/" | relative_url }})
-- [Cloud Usage]({{ "/hyu/cloud-usage/" | relative_url }})
+- [Cloud Utilization]({{ "/hyu/cloud-utilization/" | relative_url }})
 
 ## Recent HYU Posts
 
